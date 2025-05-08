@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">MyApplication</string>
+    <string name="default_web_client_id">399182913220-86k9jf9024ud6kk07gdbknbkcstenvcm.apps.googleusercontent.com</string>
+    <string name="twitter_consumer_key">beq9uUpq0GzBgRJYTzgyNSpHm</string>
+    <string name="twitter_consumer_secret">z0HOcF9QTfEXPytJBccaPklGW8JEKb1KOCU5sxKKRgokHVhnJE</string>
+
 </resources>

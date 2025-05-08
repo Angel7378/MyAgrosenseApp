@@ -59,10 +59,10 @@
 
             <!-- Email -->
             <EditText
-                android:id="@+id/username"
+                android:id="@+id/emailEditText"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:hint="UserName"
+                android:hint="Email"
                 android:background="@drawable/input_field_bg"
                 android:padding="12dp"
                 android:textColor="#004D40"
@@ -129,27 +129,22 @@
                     android:src="@drawable/google"
                     android:layout_margin="8dp" />
 
-                <ImageView
-
-                    android:id="@+id/facebookLogin"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/facebook"
-                    android:layout_margin="8dp" />
 
                 <ImageView
-                    android:id="@+id/twitterLogin"
+                    android:id="@+id/twitterLoginButton"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/twitter"
-                    android:layout_margin="8dp" />
+                    android:layout_margin="8dp"/>
+
+
             </LinearLayout>
 
             <!-- Signup link -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Don't have an account? "
+                android:text="Don't have an account?"
                 android:textColor="#B2DFDB"
                 android:textSize="13sp"
                 android:layout_gravity="center_horizontal"

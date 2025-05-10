@@ -41,18 +41,18 @@
 
             <!-- Login Title -->
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="267dp"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:layout_marginBottom="4dp"
+                android:text="                           Login"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="4dp" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Please login to your account."
+                android:text="                    Please login to your account."
                 android:textColor="#E0F2F1"
                 android:textSize="14sp"
                 android:layout_marginBottom="20dp" />
@@ -135,7 +135,8 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/twitter"
-                    android:layout_margin="8dp"/>
+                    android:layout_margin="8dp"
+                    android:contentDescription="Twitter Login"/>
 
 
             </LinearLayout>

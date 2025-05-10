@@ -103,9 +103,12 @@ public class LoginActivity extends AppCompatActivity {
 
         // Google Sign-In
         googleLogin.setOnClickListener(v -> {
-            Intent signInIntent = mGoogleSignInClient.getSignInIntent();
-            startActivityForResult(signInIntent, RC_SIGN_IN);
+            mGoogleSignInClient.signOut().addOnCompleteListener(task -> {
+                Intent signInIntent = mGoogleSignInClient.getSignInIntent();
+                startActivityForResult(signInIntent, RC_SIGN_IN);
+            });
         });
+
 
         // Twitter Login via Firebase OAuth
         twitterLoginButton.setOnClickListener(v -> {
